@@ -1,0 +1,41 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.contenedorcss {
+display: flex;
+flex-direction: row;
+margin-top: 1vh;
+
+}
+.title{
+    border: 1px solid black;
+    color: blue;
+    font-size: 21px;
+    &.not{
+    color: red; 
+    }
+}
+p.si {
+color:green;
+}
+p.no {
+    color:red;
+    }
+.card {
+    height: auto;
+    width:fit-content;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.card img{
+    height: 250px;
+}
