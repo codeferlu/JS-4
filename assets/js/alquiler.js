@@ -66,7 +66,7 @@ const propiedades_alquiler = [
     pets: false,
     },
 ]
-var NewArray1 = propiedades_alquiler.slice(0,4);
+var NewArray1 = propiedades_alquiler.slice(0,2);
 var nav = document.getElementById("nav");
 nav.classList.add("main-section");
 

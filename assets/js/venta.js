@@ -44,7 +44,40 @@ const propiedades_venta = [
     pets: true,
     },
     {
-    nombre: 'Apartamento 4',
+    nombre: 'Apartamento 5',
+    src: 'src="./assets/img/departamento2.jpg""',
+    descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona del Imperio Azteca',
+    ubicacion: 'Txasacoca 314, Peru',
+    habitaciones: 4,
+    costo: 0,
+    precio: 1000,
+    smoke: false,
+    pets: false,
+    },
+    {
+    nombre: 'Apartamento 6',
+    src: 'src="./assets/img/departamento2.jpg""',
+    descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona en guerra',
+    ubicacion: 'Boom 45, Ukraine',
+    habitaciones: 2,
+    costo: 0,
+    precio: 1,
+    smoke: false,
+    pets: true,
+    },
+    {
+    nombre: 'Apartamento 7',
+    src: 'src="./assets/img/departamento2.jpg""',
+    descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona apocaliptica',
+    ubicacion: 'Santa mamita, Tijuana',
+    habitaciones: 2,
+    costo: 0,
+    precio: 1,
+    smoke: false,
+    pets: true,
+    },
+    {
+    nombre: 'Apartamento 8',
     src: 'src="./assets/img/departamento2.jpg""',
     descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona apocaliptica',
     ubicacion: 'Santa mamita, Tijuana',
@@ -55,40 +88,7 @@ const propiedades_venta = [
     pets: true,
     },
     {
-    nombre: 'Apartamento 4',
-    src: 'src="./assets/img/departamento2.jpg""',
-    descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona apocaliptica',
-    ubicacion: 'Santa mamita, Tijuana',
-    habitaciones: 4,
-    costo: 0,
-    precio: 1000,
-    smoke: false,
-    pets: true,
-    },
-    {
-    nombre: 'Apartamento 4',
-    src: 'src="./assets/img/departamento2.jpg""',
-    descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona apocaliptica',
-    ubicacion: 'Santa mamita, Tijuana',
-    habitaciones: 4,
-    costo: 0,
-    precio: 1000,
-    smoke: false,
-    pets: true,
-    },
-    {
-    nombre: 'Apartamento 4',
-    src: 'src="./assets/img/departamento2.jpg""',
-    descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona apocaliptica',
-    ubicacion: 'Santa mamita, Tijuana',
-    habitaciones: 4,
-    costo: 0,
-    precio: 1000,
-    smoke: false,
-    pets: true,
-    },
-    {
-    nombre: 'Apartamento 4',
+    nombre: 'Apartamento 9',
     src: 'src="./assets/img/departamento2.jpg""',
     descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona apocaliptica',
     ubicacion: 'Santa mamita, Tijuana',
@@ -100,7 +100,7 @@ const propiedades_venta = [
     },
     
 ]
-var NewArray = propiedades_venta.slice(0,4);
+var NewArray = propiedades_venta.slice(0,6);
 var nav = document.getElementById("nav");
 nav.classList.add("main-section");
 
